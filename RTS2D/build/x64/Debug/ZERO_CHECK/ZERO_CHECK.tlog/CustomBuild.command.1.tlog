@@ -1,0 +1,10 @@
+^C:\USERS\MATHI\PROJET STR\RTS2D\BUILD\CMAKEFILES\F0E6320835ACD2724582C921258F1307\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/mathi/Projet STR/RTS2D" "-BC:/Users/mathi/Projet STR/RTS2D/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/mathi/Projet STR/RTS2D/build/RTS2D.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
